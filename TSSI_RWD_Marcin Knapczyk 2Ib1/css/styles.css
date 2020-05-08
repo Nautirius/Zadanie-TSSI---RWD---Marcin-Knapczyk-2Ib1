@@ -57,7 +57,7 @@ figure:hover {
     .social:hover, .contact:hover {background-color: rgb(230,230,230); transition: 600ms; }
     ul:first-child {padding-top: .5vh; }
     ul:last-child {margin-bottom: -1vh; }
-    #last {padding-top: .5vh; }
+    /* #last {padding-top: .5vh; } */
     .social ul { display: flex; justify-content: space-evenly; padding: 1.5vh 0 2vh 0;}
     .social ul li {margin: 0 1vw;}
     input:hover {width: 30vw; text-align: center; transition: 300ms;}
@@ -67,7 +67,7 @@ figure:hover {
     .contact ul {margin-left: 40%; }
     .social ul {margin-right: 40%; }
     li {margin-left: 20%; margin-right: 20%; padding: 1%; size: 100%; font-weight: bolder; }
-    li:hover {background-color: rgb(230,230,230); transition: 600ms; }
+    .contact li:hover {background-color: rgb(230,230,230); transition: 600ms; }
     .contact, .social {margin: 10vh 0 10vh 0; display: flexbox; justify-content: center; }
     .social ul li {width: 24px; margin: 0 auto; padding: 1vh 0; }
     .copyright { display: block; width: 100vw; text-align: center; }
@@ -104,7 +104,7 @@ a {
 }
 
 /* SPRITES */
-.social-dribbble {
+/* .social-dribbble {
     background: url(/images/dribbble_sprites.png) no-repeat -24px -24px;
 }
 .social-facebook {
@@ -124,4 +124,4 @@ a {
 .social-twitter:hover {
     background: url(/images/twitter_sprites.png) no-repeat;
     transition: 0s;
-}
+} */
